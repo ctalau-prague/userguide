@@ -476,6 +476,7 @@
    <appContext helpID="code-templates" path="topics/code-templates.html"/>
    <appContext helpID="outliner-view" path="topics/outliner-view-1.html"/>
    <appContext helpID="filters-outliner" path="topics/filters-outliner-1.html"/>
+   <appContext helpID="outliner-popup-menu" path="topics/outliner-popup-menu.html"/>
    <appContext helpID="xml-id-idrefs-quick-assist"
                path="topics/xml-id-idrefs-quick-assist.html"/>
    <appContext helpID="inserting-a-file-at-caret-position"
@@ -510,6 +511,7 @@
    <appContext helpID="rendering-xml-author-mode" path="topics/rendering-xml-author-mode.html"/>
    <appContext helpID="author-navigate-document-content"
                path="topics/author-navigate-document-content-1.html"/>
+   <appContext helpID="author-display-markup" path="topics/author-display-markup.html"/>
    <appContext helpID="editing-content-author" path="topics/editing-content-author.html"/>
    <appContext helpID="author-editing-markup" path="topics/author-editing-markup.html"/>
    <appContext helpID="editing-attributes-author-mode"
@@ -523,6 +525,8 @@
                path="topics/content-completion-set-schema-author.html"/>
    <appContext helpID="content-completion-schema-annotations-author"
                path="topics/content-completion-schema-annotations-author.html"/>
+   <appContext helpID="content-completion-helper-panels"
+               path="topics/content-completion-helper-panels.html"/>
    <appContext helpID="model-panel" path="topics/model-panel-3.html"/>
    <appContext helpID="author-attributes-view" path="topics/author-attributes-view-1.html"/>
    <appContext helpID="author-elements-view" path="topics/author-elements-view-1.html"/>
@@ -756,6 +760,7 @@
    <appContext helpID="directories-comparison-user-interface"
                path="topics/directories-comparison-user-interface.html"/>
    <appContext helpID="dir-operations-menu" path="topics/dir-operations-menu.html"/>
+   <appContext helpID="option-menu" path="topics/option-menu.html"/>
    <appContext helpID="diff-help-menu" path="topics/diff-help-menu-1.html"/>
    <appContext helpID="dir-compare-toolbar" path="topics/dir-compare-toolbar.html"/>
    <appContext helpID="compare-images" path="topics/compare-images.html"/>
@@ -775,6 +780,7 @@
    <appContext helpID="docbook5_webhelp_output" path="topics/docbook5_webhelp_output.html"/>
    <appContext helpID="docbook-pdf-output-customization"
                path="tasks/docbook-pdf-output-customization-1.html"/>
+   <appContext helpID="docbook-to-epub" path="topics/docbook-to-epub.html"/>
    <appContext helpID="docbook-2-dita-transform" path="topics/docbook-2-dita-transform-1.html"/>
    <appContext helpID="author-dita-transformation-scenarios"
                path="topics/author-dita-transformation-scenarios.html"/>
@@ -845,6 +851,11 @@
                path="topics/ant-transformation-output-tab.html"/>
    <appContext helpID="xslt-transformation" path="topics/xslt-transformation.html"/>
    <appContext helpID="xslt-tab" path="topics/xslt-tab-1.html"/>
+   <appContext helpID="xslt-stylesheet-parameters"
+               path="topics/xslt-stylesheet-parameters.html"/>
+   <appContext helpID="xslt-xquery-extensions" path="topics/xslt-xquery-extensions.html"/>
+   <appContext helpID="additional-xslt-stylesheets"
+               path="topics/additional-xslt-stylesheets.html"/>
    <appContext helpID="advanced-saxon-xslt-options"
                path="topics/advanced-saxon-xslt-options-1.html"/>
    <appContext helpID="fo-processor-tab" path="topics/fo-processor-tab-1.html"/>
@@ -863,6 +874,8 @@
                path="topics/xproc-transformation-options-tab.html"/>
    <appContext helpID="xquery-transformation" path="topics/xquery-transformation.html"/>
    <appContext helpID="the-xquery-tab" path="topics/the-xquery-tab-1.html"/>
+   <appContext helpID="xquery-parameters" path="topics/xquery-parameters.html"/>
+   <appContext helpID="xquery-extensions" path="topics/xquery-extensions.html"/>
    <appContext helpID="transform-xquery-advanced-saxon-options"
                path="topics/transform-xquery-advanced-saxon-options-1.html"/>
    <appContext helpID="fo-processor-tab--xml-xquery"
@@ -967,7 +980,12 @@
                path="topics/manage-comments-webhelp-feedback.html"/>
    <appContext helpID="customize_webhelp" path="topics/customize_webhelp.html"/>
    <appContext helpID="adding-select-all-button" path="tasks/adding-select-all-button.html"/>
+   <appContext helpID="add-favicon-webhelp" path="tasks/add-favicon-webhelp.html"/>
+   <appContext helpID="webhelp-customization-add-image-to-title"
+               path="topics/webhelp-customization-add-image-to-title.html"/>
    <appContext helpID="embed_videos" path="topics/embed_videos.html"/>
+   <appContext helpID="webhelp-customization-ol-numbering"
+               path="topics/webhelp-customization-ol-numbering.html"/>
    <appContext helpID="webhelp-change-toc-icons" path="tasks/webhelp-change-toc-icons.html"/>
    <appContext helpID="webhelp-customizations-toc"
                path="topics/webhelp-customizations-toc.html"/>
@@ -978,6 +996,7 @@
                path="topics/disable-caching-in-webhelp-pages.html"/>
    <appContext helpID="scoring-properties-search-results"
                path="tasks/scoring-properties-search-results-1.html"/>
+   <appContext helpID="flagging-dita-content" path="tasks/flagging-dita-content.html"/>
    <appContext helpID="index-japanese-content-webhelp"
                path="topics/index-japanese-content-webhelp-1.html"/>
    <appContext helpID="webhelp-social-media-integration"
@@ -997,6 +1016,7 @@
    <appContext helpID="webhelp-customization-remove-next-previous-links"
                path="topics/webhelp-customization-remove-next-previous-links.html"/>
    <appContext helpID="webhelp-seo" path="topics/webhelp-seo-1.html"/>
+   <appContext helpID="rtl-webhelp" path="topics/rtl-webhelp.html"/>
    <appContext helpID="webhelp_skin_builder" path="topics/webhelp_skin_builder.html"/>
    <appContext helpID="webhelp_runtime_additional_parameters"
                path="topics/webhelp_runtime_additional_parameters.html"/>
@@ -1005,12 +1025,23 @@
    <appContext helpID="webhelp-mobile-systems" path="topics/webhelp-mobile-systems.html"/>
    <appContext helpID="customizing-wh-mobile" path="topics/customizing-wh-mobile.html"/>
    <appContext helpID="adding-select-all-button" path="tasks/adding-select-all-button-1.html"/>
+   <appContext helpID="add-favicon-webhelp" path="tasks/add-favicon-webhelp.html"/>
+   <appContext helpID="embed_videos" path="topics/embed_videos.html"/>
    <appContext helpID="changing-color-theme-webhelp"
                path="topics/changing-color-theme-webhelp.html"/>
+   <appContext helpID="webhelp-customization-ol-numbering"
+               path="topics/webhelp-customization-ol-numbering.html"/>
+   <appContext helpID="webhelp-change-toc-icons" path="tasks/webhelp-change-toc-icons.html"/>
    <appContext helpID="webhelp-customizations-toc"
                path="topics/webhelp-customizations-toc-1.html"/>
+   <appContext helpID="webhelp-customization-custom-header-footer"
+               path="topics/webhelp-customization-custom-header-footer.html"/>
+   <appContext helpID="webhelp-customization-css" path="topics/webhelp-customization-css.html"/>
+   <appContext helpID="disable-caching-in-webhelp-pages"
+               path="topics/disable-caching-in-webhelp-pages.html"/>
    <appContext helpID="scoring-properties-search-results"
                path="tasks/scoring-properties-search-results-2.html"/>
+   <appContext helpID="flagging-dita-content" path="tasks/flagging-dita-content.html"/>
    <appContext helpID="index-japanese-content-webhelp"
                path="topics/index-japanese-content-webhelp-2.html"/>
    <appContext helpID="webhelp-social-media-integration"
@@ -1021,9 +1052,16 @@
    <appContext helpID="integrate-google-analytics"
                path="tasks/integrate-google-analytics-1.html"/>
    <appContext helpID="integrate-google-search" path="tasks/integrate-google-search-1.html"/>
+   <appContext helpID="localizing-interface-webhelp-output"
+               path="topics/localizing-interface-webhelp-output.html"/>
    <appContext helpID="localize-webhelp" path="tasks/localize-webhelp-2.html"/>
    <appContext helpID="docbook-localize-webhelp" path="tasks/docbook-localize-webhelp-1.html"/>
+   <appContext helpID="webhelp-customization-remove-next-previous-links"
+               path="topics/webhelp-customization-remove-next-previous-links.html"/>
    <appContext helpID="webhelp-seo" path="topics/webhelp-seo-2.html"/>
+   <appContext helpID="rtl-webhelp" path="topics/rtl-webhelp.html"/>
+   <appContext helpID="webhelp_runtime_additional_parameters"
+               path="topics/webhelp_runtime_additional_parameters.html"/>
    <appContext helpID="context-sensitive-help-system"
                path="topics/context-sensitive-help-system-1.html"/>
    <appContext helpID="using-the-webhelp-plugin" path="topics/using-the-webhelp-plugin.html"/>
@@ -1210,28 +1248,40 @@
    <appContext helpID="author-docbook4-doc-type" path="topics/author-docbook4-doc-type.html"/>
    <appContext helpID="author-docbook4-extensions"
                path="topics/author-docbook4-extensions.html"/>
+   <appContext helpID="author-docbook4-transformation-scenarios"
+               path="topics/author-docbook4-transformation-scenarios.html"/>
    <appContext helpID="docbook4_webhelp_output" path="topics/docbook4_webhelp_output-1.html"/>
    <appContext helpID="docbook-pdf-output-customization"
                path="tasks/docbook-pdf-output-customization-2.html"/>
+   <appContext helpID="docbook-to-epub" path="topics/docbook-to-epub.html"/>
    <appContext helpID="docbook-2-dita-transform" path="topics/docbook-2-dita-transform-2.html"/>
    <appContext helpID="author-docbook4-templates" path="topics/author-docbook4-templates.html"/>
    <appContext helpID="olink-links" path="tasks/olink-links.html"/>
    <appContext helpID="author-docbook5-doc-type" path="topics/author-docbook5-doc-type.html"/>
    <appContext helpID="author-docbook5-extensions"
                path="topics/author-docbook5-extensions.html"/>
+   <appContext helpID="author-docbook5-transformation-scenarios"
+               path="topics/author-docbook5-transformation-scenarios.html"/>
    <appContext helpID="docbook5_webhelp_output" path="topics/docbook5_webhelp_output-1.html"/>
    <appContext helpID="docbook-pdf-output-customization"
                path="tasks/docbook-pdf-output-customization-3.html"/>
+   <appContext helpID="docbook-to-epub" path="topics/docbook-to-epub.html"/>
    <appContext helpID="docbook-2-dita-transform" path="topics/docbook-2-dita-transform-3.html"/>
    <appContext helpID="author-docbook5-templates" path="topics/author-docbook5-templates.html"/>
+   <appContext helpID="olink-links" path="tasks/olink-links.html"/>
    <appContext helpID="author-docbook-targetset-doc-type"
                path="topics/author-docbook-targetset-doc-type.html"/>
    <appContext helpID="author-dita-doc-type" path="topics/author-dita-doc-type.html"/>
    <appContext helpID="author-dita-extensions" path="topics/author-dita-extensions.html"/>
+   <appContext helpID="author-dita-transformation-scenarios"
+               path="topics/author-dita-transformation-scenarios.html"/>
    <appContext helpID="author-dita-templates" path="topics/author-dita-templates.html"/>
    <appContext helpID="author-dita-map-doc-type" path="topics/author-dita-map-doc-type.html"/>
    <appContext helpID="author-dita-map-extensions"
                path="topics/author-dita-map-extensions.html"/>
+   <appContext helpID="author-dita-map-transformation-scenarios"
+               path="topics/author-dita-map-transformation-scenarios.html"/>
+   <appContext helpID="dita_webhelp_output" path="topics/dita_webhelp_output.html"/>
    <appContext helpID="wh-responsive-output" path="topics/wh-responsive-output-1.html"/>
    <appContext helpID="wh-responsive-feedback-output"
                path="topics/wh-responsive-feedback-output-1.html"/>
@@ -1245,22 +1295,34 @@
    <appContext helpID="author-dita-map-templates" path="topics/author-dita-map-templates.html"/>
    <appContext helpID="author-xhtml-doc-type" path="topics/author-xhtml-doc-type.html"/>
    <appContext helpID="author-xhtml-extensions" path="topics/author-xhtml-extensions.html"/>
+   <appContext helpID="author-xhtml-transformation-scenarios"
+               path="topics/author-xhtml-transformation-scenarios.html"/>
    <appContext helpID="author-xhtml-templates" path="topics/author-xhtml-templates.html"/>
    <appContext helpID="author-tei-odd-doc-type" path="topics/author-tei-odd-doc-type.html"/>
    <appContext helpID="author-tei-odd-extensions" path="topics/author-tei-odd-extensions.html"/>
+   <appContext helpID="author-tei-odd-transformation-scenarios"
+               path="topics/author-tei-odd-transformation-scenarios.html"/>
    <appContext helpID="author-tei-odd-templates" path="topics/author-tei-odd-templates.html"/>
    <appContext helpID="author-teip4-doc-type" path="topics/author-teip4-doc-type.html"/>
    <appContext helpID="author-teip4-extenssions" path="topics/author-teip4-extenssions.html"/>
+   <appContext helpID="author-teip4-transformation-scenarios"
+               path="topics/author-teip4-transformation-scenarios.html"/>
    <appContext helpID="author-teip4-templates" path="topics/author-teip4-templates.html"/>
    <appContext helpID="customization-of-TEI-framework"
                path="tasks/customization-of-TEI-framework.html"/>
    <appContext helpID="author-teip5-doc-type" path="topics/author-teip5-doc-type.html"/>
    <appContext helpID="author-teip5-actions" path="topics/author-teip5-actions.html"/>
+   <appContext helpID="author-teip5-transformation-scenarios"
+               path="topics/author-teip5-transformation-scenarios.html"/>
    <appContext helpID="author-teip5-templates" path="topics/author-teip5-templates.html"/>
+   <appContext helpID="customization-of-TEI-framework"
+               path="tasks/customization-of-TEI-framework.html"/>
    <appContext helpID="customization-of-TEI-framework-stable"
                path="tasks/customization-of-TEI-framework-stable.html"/>
    <appContext helpID="author-jats-doc-type" path="topics/author-jats-doc-type.html"/>
    <appContext helpID="author-jats-actions" path="topics/author-jats-actions.html"/>
+   <appContext helpID="author-jats-transformation-scenarios"
+               path="topics/author-jats-transformation-scenarios.html"/>
    <appContext helpID="author-jats-templates" path="topics/author-jats-templates.html"/>
    <appContext helpID="epub-document-type" path="topics/epub-document-type.html"/>
    <appContext helpID="authoring_customization" path="topics/authoring_customization.html"/>
@@ -1643,19 +1705,31 @@
                path="topics/localizing-refactoring-operations-1.html"/>
    <appContext helpID="format-indent-multiple-files"
                path="topics/format-indent-multiple-files-1.html"/>
+   <appContext helpID="canonicalizing-files" path="topics/canonicalizing-files.html"/>
    <appContext helpID="signing-files" path="topics/signing-files-1.html"/>
+   <appContext helpID="verifying-signature" path="topics/verifying-signature.html"/>
    <appContext helpID="large-file-viewer" path="topics/large-file-viewer.html"/>
    <appContext helpID="hex-viewer" path="topics/hex-viewer.html"/>
    <appContext helpID="the-standalone-svg-viewer"
                path="topics/the-standalone-svg-viewer-1.html"/>
    <appContext helpID="file-comparison" path="topics/file-comparison-1.html"/>
+   <appContext helpID="files-comparison-main-menu"
+               path="topics/files-comparison-main-menu.html"/>
+   <appContext helpID="file-menu" path="topics/file-menu.html"/>
+   <appContext helpID="edit-menu" path="topics/edit-menu.html"/>
+   <appContext helpID="find-menu" path="topics/find-menu.html"/>
    <appContext helpID="file-operations-menu" path="topics/file-operations-menu-1.html"/>
+   <appContext helpID="option-menu" path="topics/option-menu.html"/>
    <appContext helpID="diff-help-menu" path="topics/diff-help-menu-2.html"/>
    <appContext helpID="file-compare-toolbar" path="topics/file-compare-toolbar-1.html"/>
    <appContext helpID="directories-comparison" path="topics/directories-comparison-1.html"/>
+   <appContext helpID="directories-comparison-user-interface"
+               path="topics/directories-comparison-user-interface.html"/>
    <appContext helpID="dir-operations-menu" path="topics/dir-operations-menu-1.html"/>
+   <appContext helpID="option-menu" path="topics/option-menu.html"/>
    <appContext helpID="diff-help-menu" path="topics/diff-help-menu-3.html"/>
    <appContext helpID="dir-compare-toolbar" path="topics/dir-compare-toolbar-1.html"/>
+   <appContext helpID="compare-images" path="topics/compare-images.html"/>
    <appContext helpID="svn-quick-start" path="topics/svn-quick-start.html"/>
    <appContext helpID="svn-main-window" path="topics/svn-main-window.html"/>
    <appContext helpID="views" path="topics/views.html"/>
@@ -1735,6 +1809,9 @@
                path="tasks/create-patch-two-revisions.html"/>
    <appContext helpID="create-patch-repository" path="tasks/create-patch-repository.html"/>
    <appContext helpID="create-patch-remote" path="topics/create-patch-remote.html"/>
+   <appContext helpID="create-patch-two-revisions"
+               path="tasks/create-patch-two-revisions.html"/>
+   <appContext helpID="create-patch-repository" path="tasks/create-patch-repository.html"/>
    <appContext helpID="create-patch-options" path="topics/create-patch-options.html"/>
    <appContext helpID="working-with-repositories" path="topics/working-with-repositories.html"/>
    <appContext helpID="import-repos" path="topics/import-repos.html"/>
